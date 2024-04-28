@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <style>
+        /* CSS styling goes here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f4f4;
+        }
+        header {
+            background-color: #ce2f2f;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #191717;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Học viện Công nghệ Bưu chính Viễn thông</h1>
+        <p>Giáo dục là chìa khóa mở ra cánh cửa của tương lai.</p>
+    </header>
+    <nav>
+        <a href="#gioi-thieu">Giới thiệu</a>
+        <a href="#thong-bao">Thông báo</a>
+        <a href="#tuyen-sinh">Tuyển sinh</a>
+        <a href="#tin-tuc">Tin tức</a>
+        <a href="#hinh-anh">Hình ảnh & Video</a>
+        <a href="#tai-lieu">Tài liệu học tập</a>
+        <a href="#ho-tro">Hỗ trợ trực tuyến</a>
+    </nav>
+    <div class="container">
+        <section id="gioi-thieu">
+            <h2>Giới thiệu về trường</h2>
+            <p>PTIT là một trường có lịch sử lâu đời, cam kết mang lại chất lượng giáo dục tốt nhất cho học sinh.</p>
+            <img src="https://blogcdn.muaban.net/wp-content/uploads/2022/08/16015853/ptit-diem-chuan-1.jpg" alt="https://blogcdn.muaban.net/wp-content/uploads/2022/08/16015853/ptit-diem-chuan-1.jpg">
+            <!-- Thêm thông tin chi tiết về trường -->
+        </section>
+        <section id="thong-bao">
+            <h2>Thông báo & Hoạt động</h2>
+            <p>Cập nhật các thông báo về hoạt động sắp diễn ra hoặc đã diễn ra tại trường.</p>
+            <img src=""
+            <!-- Thêm thông tin về các hoạt động, sự kiện -->
+        </section>
+        <section id="tuyen-sinh">
+            <h2>Tuyển sinh</h2>
+            <p>Thông tin về quy trình tuyển sinh, yêu cầu và hạn chót đăng ký.</p>
+            <!-- Thêm thông tin về tuyển sinh -->
+        </section>
+        <section id="tin-tuc">
+            <h2>Tin tức & Kiến thức học đường</h2>
+            <p>Cung cấp các bài viết, tài liệu liên quan đến kiến thức học đường.</p>
+            <!-- Thêm tin tức và kiến thức học đường -->
+        </section>
+        <section id="hinh-anh">
+            <h2>Hình ảnh & Video</h2>
+            <p>Hiển thị hình ảnh và video về các hoạt động, sự kiện tại trường.</p>
+            <!-- Thêm hình ảnh và video -->
+        </section>
+        <section id="tai-lieu">
+            <h2>Tài liệu học tập</h2>
+            <p>Nơi chia sẻ tài liệu, tư liệu cho học sinh.</p>
+            <!-- Thêm tài liệu học tập -->
+        </section>
+        <section id="ho-tro">
+            <h2>Tư vấn & Hỗ trợ trực tuyến</h2>
+            <p>Hỗ trợ học sinh có thắc mắc trực tuyến.</p>
+            <!-- Thêm hỗ trợ trực tuyến -->
+        </section>
+    </div>
+</body>
+</html>
