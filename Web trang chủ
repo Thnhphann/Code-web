@@ -1,105 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-
-
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang chủ</title>
-    <style>
-        /* CSS styling goes here */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f4f4;
-        }
-        header {
-            background-color: #ce2f2f;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            background-color: #191717;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        .container {
-            max-width: 960px;
-            margin: 20px auto;
-            padding: 0 20px;
-        }
-        section {
-            margin-bottom: 20px;
-        }
-        h2 {
-            color: #333;
-        }
-        p {
-            line-height: 1.6;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
 </head>
+
 <body>
-    <header>
-        <h1>Học viện Công nghệ Bưu chính Viễn thông</h1>
-        <p>Giáo dục là chìa khóa mở ra cánh cửa của tương lai.</p>
-    </header>
+  <header class="home-header">
     <nav>
-        <a href="#gioi-thieu">Giới thiệu</a>
-        <a href="#thong-bao">Thông báo</a>
-        <a href="#tuyen-sinh">Tuyển sinh</a>
-        <a href="#tin-tuc">Tin tức</a>
-        <a href="#hinh-anh">Hình ảnh & Video</a>
-        <a href="#tai-lieu">Tài liệu học tập</a>
-        <a href="#ho-tro">Hỗ trợ trực tuyến</a>
+      <ul class="list-nav">
+        <li><a href="index.html" class="nav">
+            <span class="home-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="home-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+              </svg>
+            </span>
+            <p>Trang chủ</p>
+          </a></li>
+        <li><a href="index.html" class="nav">
+            <span class="home-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="home-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+              </svg>
+            </span>
+            <p>Trang chủ</p>
+          </a></li>
+        <li><a href="index.html" class="nav">
+            <span class="home-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="home-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+              </svg>
+            </span>
+            <p>Trang chủ</p>
+          </a></li>
+      </ul>
     </nav>
-    <div class="container">
-        <section id="gioi-thieu">
-            <h2>Giới thiệu về trường</h2>
-            <p>PTIT là một trường có lịch sử lâu đời, cam kết mang lại chất lượng giáo dục tốt nhất cho học sinh.</p>
-            <img src="https://blogcdn.muaban.net/wp-content/uploads/2022/08/16015853/ptit-diem-chuan-1.jpg" alt="https://blogcdn.muaban.net/wp-content/uploads/2022/08/16015853/ptit-diem-chuan-1.jpg">
-            <!-- Thêm thông tin chi tiết về trường -->
-        </section>
-        <section id="thong-bao">
-            <h2>Thông báo & Hoạt động</h2>
-            <p>Cập nhật các thông báo về hoạt động sắp diễn ra hoặc đã diễn ra tại trường.</p>
-            <img src=""
-            <!-- Thêm thông tin về các hoạt động, sự kiện -->
-        </section>
-        <section id="tuyen-sinh">
-            <h2>Tuyển sinh</h2>
-            <p>Thông tin về quy trình tuyển sinh, yêu cầu và hạn chót đăng ký.</p>
-            <!-- Thêm thông tin về tuyển sinh -->
-        </section>
-        <section id="tin-tuc">
-            <h2>Tin tức & Kiến thức học đường</h2>
-            <p>Cung cấp các bài viết, tài liệu liên quan đến kiến thức học đường.</p>
-            <!-- Thêm tin tức và kiến thức học đường -->
-        </section>
-        <section id="hinh-anh">
-            <h2>Hình ảnh & Video</h2>
-            <p>Hiển thị hình ảnh và video về các hoạt động, sự kiện tại trường.</p>
-            <!-- Thêm hình ảnh và video -->
-        </section>
-        <section id="tai-lieu">
-            <h2>Tài liệu học tập</h2>
-            <p>Nơi chia sẻ tài liệu, tư liệu cho học sinh.</p>
-            <!-- Thêm tài liệu học tập -->
-        </section>
-        <section id="ho-tro">
-            <h2>Tư vấn & Hỗ trợ trực tuyến</h2>
-            <p>Hỗ trợ học sinh có thắc mắc trực tuyến.</p>
-            <!-- Thêm hỗ trợ trực tuyến -->
-        </section>
+  </header>
+  <div class="banner-wrapper">
+    <div class="banner-wrapper-red">
     </div>
+    <div>
+    </div class="banner-wrapper-white">
+    <div class="banner-image">
+      <img src="./images/banner.png" alt="">
+    </div>
+  </div>
+  <main>
+    <div class="huge-wrapper">
+      <div class="noti-wrapper">
+        <div class="noti-header">
+          <h2>THÔNG BÁO</h2>
+        </div>
+        <div class="noti-item">
+          <div class="noti-left">
+            <div class="noti-left-img">
+              <img src="./images/1.png" alt="">
+            </div>
+            <p class="noti-createdAt">02/04/2024 11:42</p>
+            <h3>
+              Thông báo: V/v Đăng ký thời khóa biểu các lớp học phần trong đợt học lớp riêng Học kỳ II – năm học 2023-2024
+            </h3>
+          </div>
+          <div class="noti-right">
+            <a href="" class="noti-right__item">
+              <div class="noti-right__item-info">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+                  </svg>
+                </span>
+                <span class="noti-right__item-info-text">Thông báo V/v: Yêu cầu sinh viên kiểm tra điểm học kỳ I năm học 2023-2024 được cập nhật trên QLĐT</span>
+              </div>
+              <p class="noti-right__item-date">02/04/2024 11:42</p>
+            </a>
+            <a href="" class="noti-right__item">
+              <div class="noti-right__item-info">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+                  </svg>
+                </span>
+                <span class="noti-right__item-info-text">Thông báo V/v: Yêu cầu sinh viên kiểm tra điểm học kỳ I năm học 2023-2024 được cập nhật trên QLĐT</span>
+              </div>
+              <p class="noti-right__item-date">02/04/2024 11:42</p>
+            </a>
+            <a href="" class="noti-right__item">
+              <div class="noti-right__item-info">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+                  </svg>
+                </span>
+                <span class="noti-right__item-info-text">Thông báo V/v: Yêu cầu sinh viên kiểm tra điểm học kỳ I năm học 2023-2024 được cập nhật trên QLĐT</span>
+              </div>
+              <p class="noti-right__item-date">02/04/2024 11:42</p>
+            </a>
+            <a href="" class="noti-right__item">
+              <div class="noti-right__item-info">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+                  </svg>
+                </span>
+                <span class="noti-right__item-info-text">Thông báo V/v: Yêu cầu sinh viên kiểm tra điểm học kỳ I năm học 2023-2024 được cập nhật trên QLĐT</span>
+              </div>
+              <p class="noti-right__item-date">02/04/2024 11:42</p>
+            </a>
+            <a href="" class="noti-right__item">
+              <div class="noti-right__item-info">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+                  </svg>
+                </span>
+                <span class="noti-right__item-info-text">Thông báo V/v: Yêu cầu sinh viên kiểm tra điểm học kỳ I năm học 2023-2024 được cập nhật trên QLĐT</span>
+              </div>
+              <p class="noti-right__item-date">02/04/2024 11:42</p>
+            </a>
+            <a href="" class="noti-right__item">
+              <div class="noti-right__item-info">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+                  </svg>
+                </span>
+                <span class="noti-right__item-info-text">Thông báo V/v: Yêu cầu sinh viên kiểm tra điểm học kỳ I năm học 2023-2024 được cập nhật trên QLĐT</span>
+              </div>
+              <p class="noti-right__item-date">02/04/2024 11:42</p>
+            </a>
+            <a href="" class="noti-right__item">
+              <div class="noti-right__item-info">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+                  </svg>
+                </span>
+                <span class="noti-right__item-info-text">Thông báo V/v: Yêu cầu sinh viên kiểm tra điểm học kỳ I năm học 2023-2024 được cập nhật trên QLĐT</span>
+              </div>
+              <p class="noti-right__item-date">02/04/2024 11:42</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="image-slider">
+        <div class="image-wrapper">
+          <img class="image-slider-item" src="./images/2.jpg" alt="">
+          <img class="image-slider-item" src="./images/3.jpg" alt="">
+          <img class="image-slider-item" src="./images/4.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="support-student">
+      <div class="support-student-item"><a href="">Tài liệu học tập</a></div>
+      <div class="support-student-item"><a href="">Tư vấn hỗ trợ</a></div>
+    </div>
+  </main>
+  <footer>
+    <h1>Học viện Công nghệ Bưu chính Viễn thông</h1>
+    <p>KM10 Nguyễn Trãi, Hà Đông, Hà Nội</p>
+  </footer>
 </body>
+<script src="./index.js"></script>
+
 </html>
